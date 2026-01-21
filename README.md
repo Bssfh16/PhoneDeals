@@ -3,7 +3,6 @@ Dit project hoort bij het vak "Static Web". Er zijn verschillende html-bestanden
 Het onderwerp van de website is de telefoonverkoop.
 
 # Functionaliteiten
-
 Frontend:
 - Het verkrijgen van de header en footer op elke pagina.
 - Het weergeven van categorieën in de header en informatie in de footer.
@@ -28,5 +27,19 @@ Backend:
 - Het weergeven van actieknoppen om het juist toegevoegde product op te slaan of te annuleren.
 - De mogelijkheid krijgen om op deze actieknoppen te kunnen drukken.
 
+# Sterk Aangeraden Benodigdheden
+-Visual Studio Code
+Extensies op Visual Studio Code:
+- HTML CSS Support
+- Auto Rename Tag
+- Live Server
 
-# 
+# Bronnen
+- Cursus "Static Web", raadpleegbaar via canvas.ehb.be
+- "Cheat-Sheets", voor: html, css, en css-flexbox, verkrijgbaar op canvas.ehb.be
+- www.unsplash.com, voor: foto's zonder auteursrechten.
+- www.canva.com, voor: het resizen van foto's.
+- www.vergelijk.be, www.gsmarena.com, 
+- fonts.google.com, voor: google fonts lettertype.
+- AI-tool: ChatGPT en Google Gemini, voor: het ontwerpen van een logo, het eventueel helpen bij twijfel voor het kiezen van de best passende tags, labels en signs op basis van het gevraagde, het eventueel debuggen en voor het genereren van beschrijvingen en reviews.
+- www.w3schools.com, voor: code-voorbeelden.
