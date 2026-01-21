@@ -130,9 +130,9 @@ h2 {
 .productgrid {
     list-style: none;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+    display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .productcard {
@@ -145,6 +145,8 @@ h2 {
     text-align: center;
     padding-bottom: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    flex: 1 1 260px;
+    min-width: 260px;
 }
 
 .productcard:hover {
@@ -288,10 +290,9 @@ footer {
 
 
 .introdetail {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 40px;
-    align-items: start;
+    align-items: flex-start;
     background-color: var(--wit);
     padding: 40px;
     border-radius: 10px;
@@ -299,10 +300,15 @@ footer {
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+.detailinfo {
+    flex: 1;
+}
+
 .detailfoto {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 1;
 }
 
 .detailfoto img:first-child {
@@ -312,8 +318,7 @@ footer {
 }
 
 .extrafotos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 15px;
 }
 
@@ -322,6 +327,7 @@ footer {
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s;
+    flex: 1;
 }
 
 .detailinfo h1 {
@@ -397,8 +403,8 @@ footer {
 }
 
 .reviewgrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 30px;
 }
@@ -410,6 +416,8 @@ footer {
     border-left: 4px solid var(--rood);
     display: flex;
     flex-direction: column;
+    flex: 1 1 300px;
+    min-width: 300px;
 }
 
 .reviewcard .sterren {
@@ -419,7 +427,6 @@ footer {
     letter-spacing: 2px;
     line-height: 1;
 }
-
 
 .reviewcard h3 {
     font-size: 1.1rem;

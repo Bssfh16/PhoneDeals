@@ -1,3 +1,110 @@
 :root {
-    --: 
+    --wit: #ffffff;
+    --grijs: #2e2e2e;
+    --rood: #ce0101;
+    --zwart: #000000;
+    --grijs80: #808080;
+    --grijs-rand: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin {
+    background-color: #f0f0f0;
+    color: var(--grijs);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.boxlogin {
+    background-color: var(--wit);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.boxlogin h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: var(--zwart);
+}
+
+.titel-inloggen {
+    color: var(--grijs80);
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.formulier {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.groepform {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.groepform label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--grijs);
+}
+
+.groepform input,
+.groepform select,
+.groepform textarea {
+    padding: 12px;
+    border: 1px solid var(--grijs-rand);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--grijs);
+}
+
+.groepform input:focus,
+.groepform select:focus,
+.groepform textarea:focus {
+    outline: none;
+    border-color: var(--rood);
+    box-shadow: 0 0 0 3px rgba(206, 1, 1, 0.1);
+}
+
+.knop-inloggen {
+    background-color: var(--rood);
+    color: var(--wit);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.knop-inloggen:hover {
+    background-color: #a10101;
 }
