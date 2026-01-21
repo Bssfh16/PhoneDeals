@@ -29,14 +29,14 @@ Backend:
 
 # Sterk Aangeraden Benodigdheden
 - Visual Studio Code
-Extensies op Visual Studio Code:
+- Extensies op Visual Studio Code:
 - HTML CSS Support
 - Auto Rename Tag
 - Live Server
 
 # Bronnen
 - Cursus "Static Web", raadpleegbaar via canvas.ehb.be
-- "Cheat-Sheets", voor: html, css, en css-flexbox, verkrijgbaar op canvas.ehb.be
+- Pdf-bestanden: "Cheat-Sheets", voor: html, css, en css-flexbox, verkrijgbaar op canvas.ehb.be
 - www.unsplash.com, voor: foto's zonder auteursrechten.
 - www.canva.com, voor: het resizen van foto's.
 - www.vergelijk.be, www.gsmarena.com, 
