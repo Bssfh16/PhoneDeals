@@ -325,6 +325,7 @@ footer {
 .extrafotos {
     display: flex;
     gap: 15px;
+    width: 100%;
 }
 
 .extrafotos img {
@@ -333,6 +334,7 @@ footer {
     border-radius: 8px;
     transition: transform 0.3s;
     flex: 1;
+    max-width: 100px;
 }
 
 .detailinfo h1 {
