@@ -10,6 +10,7 @@ Frontend:
 - Het weergeven van een overzicht van de meest verkochte producten en van alle producten op de hoofdpagina.
 - Het weergeven van een pagina voor elk product waarin: alle details over het product, afbeeldingen, reviews en gerelateerde producten weergegeven zijn.
 - De mogelijkheid krijgen om op categorieën te drukken en om daarheen verwezen te worden.
+- Het gebruiken van Responsive Web Design zodat de site ook overzichtelijk blijft op kleinere devices.
 
 Backend:
 - De mogelijkheid krijgen om zich te kunnen inloggen met gebruikersnaam en wachtwoord en naar het dashboard verwezen te kunnen worden.
@@ -30,9 +31,9 @@ Backend:
 # Sterk Aangeraden Benodigdheden
 - Visual Studio Code
 - Extensies op Visual Studio Code:
-- HTML CSS Support
-- Auto Rename Tag
-- Live Server
+    - HTML CSS Support
+    - Auto Rename Tag
+    - Live Server
 
 # Bronnen
 - Cursus "Static Web", raadpleegbaar via canvas.ehb.be
@@ -40,6 +41,6 @@ Backend:
 - www.unsplash.com, voor: foto's zonder auteursrechten.
 - www.canva.com, voor: het resizen van foto's.
 - www.vergelijk.be, www.gsmarena.com, 
-- fonts.google.com, voor: google fonts lettertype.
-- AI-tool: ChatGPT en Google Gemini, voor: het ontwerpen van een logo, het eventueel helpen bij twijfel voor het kiezen van de best passende tags, labels en signs op basis van het gevraagde, het eventueel debuggen en voor het genereren van beschrijvingen en reviews.
+- fonts.google.com, voor: google fonts lettertype en favicon/logo in svg-formaat.
+- AI-tool: ChatGPT en Google Gemini, voor: het eventueel helpen bij twijfel voor het kiezen van de best passende tags, labels en signs op basis van het gevraagde, het eventueel debuggen en voor het genereren van beschrijvingen en reviews.
 - www.w3schools.com, voor: code-voorbeelden.
