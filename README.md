@@ -41,6 +41,6 @@ Backend:
 - www.unsplash.com, voor: foto's zonder auteursrechten.
 - www.canva.com, voor: het resizen van foto's.
 - www.vergelijk.be, www.gsmarena.com, 
-- www.fonts.google.com, voor: google fonts lettertype en favicon/logo in svg-formaat.
+- fonts.google.com, voor: google fonts lettertype en favicon/logo in svg-formaat.
 - AI-tool: ChatGPT en Google Gemini, voor: het eventueel helpen bij twijfel voor het kiezen van de best passende tags, labels en signs op basis van het gevraagde, het eventueel debuggen en voor het genereren van beschrijvingen en reviews.
 - www.w3schools.com, voor: code-voorbeelden.
