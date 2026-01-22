@@ -373,6 +373,15 @@ footer {
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+.knop-kopen {
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 1.1rem;
+    padding: 15px 40px;
+    cursor: pointer;
+    display: inline-block;
+}    
+
 .specs {
     width: 100%;
     border-collapse: collapse;
