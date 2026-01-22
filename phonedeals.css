@@ -463,7 +463,10 @@ footer {
 
 
 
-
+/* 
+Responsive Web Design zorgt voor aanpassingen voor devices met kleinere schermgrootte 
+De breakpoint is 800px
+*/
 @media (max-width: 800px) {
     .inhoudheader {
         flex-direction: column;
