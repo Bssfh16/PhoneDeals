@@ -117,3 +117,356 @@ a {
 
 
 
+.admin-header {
+    background-color: var(--zwart);
+    color: var(--wit);
+    padding: 20px 0;
+}
+
+.inhoud-header {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.useradmin {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.knop-uitloggen {
+    background-color: var(--rood);
+    color: var(--wit);
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.knop-uitloggen:hover {
+    background-color: #a10101;
+}
+
+.container-admin {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.admin-nav {
+    background-color: var(--wit);
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.admin-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin-nav a {
+    display: block;
+    padding: 12px 15px;
+    color: var(--grijs);
+    border-radius: 5px;
+    transition: all 0.3s;
+    border-left: 3px solid transparent;
+}
+
+.admin-nav a:hover {
+    background-color: #f5f5f5;
+    border-left-color: var(--rood);
+}
+
+.admin-nav a.active {
+    background-color: #f5f5f5;
+    color: var(--rood);
+    border-left-color: var(--rood);
+    font-weight: bold;
+}
+
+.admin-main {
+    background-color: var(--wit);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    flex: 1;
+}
+
+.deel-admin h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: var(--zwart);
+}
+
+.deel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.deel-header h2 {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.knop-toevoegen {
+    background-color: var(--rood);
+    color: var(--wit);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: background 0.3s;
+}
+
+.knop-toevoegen:hover {
+    background-color: #a10101;
+}
+
+.zoekbalk {
+    margin-bottom: 25px;
+}
+
+.zoekbalk input {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid var(--grijs-rand);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.zoekbalk input:focus {
+    outline: none;
+    border-color: var(--rood);
+    box-shadow: 0 0 0 3px rgba(206, 1, 1, 0.1);
+}
+
+.tabeladmin {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.tabeladmin thead {
+    background-color: #f5f5f5;
+    border-bottom: 2px solid var(--grijs-rand);
+}
+
+.tabeladmin th {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: var(--grijs);
+}
+
+.tabeladmin td {
+    padding: 15px;
+    border-bottom: 1px solid var(--grijs-rand);
+}
+
+.tabeladmin tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.beschikbaar {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.beperkt {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.uitverkocht {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.knop-klein {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    margin-right: 8px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.knop-edit {
+    background-color: #f5f5f5;
+    color: var(--grijs);
+    border: 1px solid var(--grijs-rand);
+}
+
+.knop-edit:hover {
+    background-color: var(--rood);
+    color: var(--wit);
+    border-color: var(--rood);
+}
+
+.knop-del {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.knop-del:hover {
+    background-color: #721c24;
+    color: var(--wit);
+    border-color: #721c24;
+}
+
+
+
+
+
+
+
+
+
+
+
+.deel-admin h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: var(--zwart);
+    font-weight: normal;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.formrij {
+    display: flex;
+    gap: 20px;
+}
+
+.formgroep {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.formgroep.full {
+    flex: 1 1 100%;
+}
+
+.formgroep label {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--grijs);
+}
+
+.formgroep input,
+.formgroep select,
+.formgroep textarea {
+    padding: 12px;
+    border: 1px solid var(--grijs-rand);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: var(--grijs);
+    resize: vertical;
+}
+
+.formgroep input:focus,
+.formgroep select:focus,
+.formgroep textarea:focus {
+    outline: none;
+    border-color: var(--rood);
+    box-shadow: 0 0 0 3px rgba(206, 1, 1, 0.1);
+}
+
+.checkboxgroep {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.checkboxgroep label {
+    margin-bottom: 0;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.checkboxgroep input {
+    width: auto;
+    cursor: pointer;
+}
+
+.formactie {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--grijs-rand);
+}
+
+.knop1 {
+    background-color: var(--rood);
+    color: var(--wit);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.knop1:hover {
+    background-color: #a10101;
+}
+
+.knop2 {
+    background-color: #f5f5f5;
+    color: var(--grijs);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    border: 1px solid var(--grijs-rand);
+    display: inline-block;
+}
+
+.knop2:hover {
+    background-color: #e8e8e8;
+}
