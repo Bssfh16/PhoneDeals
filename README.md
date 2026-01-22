@@ -2,6 +2,33 @@
 Dit project hoort bij het vak "Static Web". Er zijn verschillende html- en css-bestanden terug te vinden in de folders. Deze zijn aparte pagina's van een website.
 Het onderwerp van de website is de telefoonverkoop.
 
+# Plan van aanpak
+- Voorbereiding & Concept
+    - Structuur van de mappen en bestanden aanmaken.
+    - Logo en productafbeeldingen verzamelen.
+
+- Code schrijven
+    - Frontend en backend
+    - HTML-structuur van hoofdpagina maken en opvullen.
+    - Toepassen van css op html-inhoud
+    - Aanmaken van de Productdetailpagina.
+    - Dupliceren van productdetailpagina voor alle producten.
+    - Toevoegen van css op productdetailpagina's.
+    - Zorgen voor alle functionaliteiten.
+    - admin-pagina's maken en css toevoegen aan html.
+
+- Checken/verbeteren van fouten
+
+# Timing
+- Maandag 19/01
+    - Voorbereiding en concept
+- Dinsdag 20/01
+    - Code schrijven
+- Woensdag 21/01
+    - Code schrijven
+- Donderdag 22/01
+    - Checken/verbeteren van fouten
+
 # Functionaliteiten
 Frontend:
 - Het verkrijgen van de header en footer op elke pagina.
@@ -28,7 +55,7 @@ Backend:
 - Het weergeven van actieknoppen om het juist toegevoegde product op te slaan of te annuleren.
 - De mogelijkheid krijgen om op deze actieknoppen te kunnen drukken.
 
-# Sterk Aangeraden Benodigdheden
+# Sterk Aangeraden Materiaal
 - Visual Studio Code
 - Extensies op Visual Studio Code:
     - HTML CSS Support
